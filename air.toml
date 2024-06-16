@@ -1,0 +1,7 @@
+[build]
+cmd = "GOOS=js GOARCH=wasm go build -o bin/main.wasm"
+
+[watch]
+includes = [
+  "*.go"
+]
